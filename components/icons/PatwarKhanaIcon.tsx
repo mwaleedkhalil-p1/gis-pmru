@@ -13,55 +13,51 @@ export const PatwarKhanaIcon: React.FC<PatwarKhanaIconProps> = ({
     <svg 
       width={size} 
       height={size} 
-      viewBox="0 0 500 500" 
+      viewBox="0 0 375 375" 
       fill="none" 
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <circle cx="250" cy="250" r="250" fill="#1E88E5"/>
-      <g fill="white">
-        {/* Building structure */}
-        <path d="M75 150 L250 75 L425 150 L425 175 L375 175 L375 350 L425 350 L425 375 L425 400 L75 400 L75 375 L75 350 L125 350 L125 175 L75 175 Z"/>
-        
-        {/* Columns */}
-        <rect x="100" y="175" width="25" height="175"/>
-        <rect x="375" y="175" width="25" height="175"/>
-        
-        {/* Column bases */}
-        <rect x="95" y="350" width="35" height="25"/>
-        <rect x="370" y="350" width="35" height="25"/>
-        
-        {/* Column tops */}
-        <rect x="95" y="150" width="35" height="25"/>
-        <rect x="370" y="150" width="35" height="25"/>
-        
-        {/* Star */}
-        <path d="M250 90 L255 105 L270 105 L258 115 L263 130 L250 120 L237 130 L242 115 L230 105 L245 105 Z"/>
-        
-        {/* Text */}
-        <text x="250" y="135" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold">PATWAR KHANA</text>
-        
-        {/* Document */}
-        <rect x="170" y="180" width="115" height="155" fill="white" stroke="none"/>
-        <path d="M270 180 L285 195 L270 195 Z" fill="#E3F2FD"/>
-        
-        {/* Pen */}
-        <g transform="translate(300, 200) rotate(45)">
-          <rect x="0" y="0" width="8" height="30" fill="white"/>
-          <rect x="2" y="25" width="4" height="8" fill="#FFC107"/>
+      <metadata><ContainsAiGeneratedContent>Yes</ContainsAiGeneratedContent></metadata>
+      <defs>
+        <filter x="0%" y="0%" width="100%" height="100%" id="107d4ac6a3">
+          <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" colorInterpolationFilters="sRGB"/>
+        </filter>
+        <filter x="0%" y="0%" width="100%" height="100%" id="ab4f5b56a7">
+          <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0.2126 0.7152 0.0722 0 0" colorInterpolationFilters="sRGB"/>
+        </filter>
+        <clipPath id="0491e2294a">
+          <path d="M 0 0 L 371.820312 0 L 371.820312 375 L 0 375 Z M 0 0 " clipRule="nonzero"/>
+        </clipPath>
+        <mask id="819b467e07">
+          <g filter="url(#107d4ac6a3)">
+            <g filter="url(#ab4f5b56a7)" transform="matrix(0.366211, 0, 0, 0.366211, -3.180725, 0)">
+              <rect x="0" y="0" width="1024" height="1024" fill="url(#imagePattern)" />
+            </g>
+          </g>
+        </mask>
+        <clipPath id="1039618a36">
+          <path d="M 41.8125 41.542969 L 326.8125 41.542969 L 326.8125 333.292969 L 41.8125 333.292969 Z M 41.8125 41.542969 " clipRule="nonzero"/>
+        </clipPath>
+        <mask id="e5749fb917">
+          <g filter="url(#107d4ac6a3)">
+            <g filter="url(#ab4f5b56a7)" transform="matrix(0.356689, 0, 0, 0.356689, -1.582056, 5.051455)">
+              <rect x="0" y="0" width="1024" height="1024" fill="#4A90E2" />
+            </g>
+          </g>
+        </mask>
+      </defs>
+      <g clipPath="url(#0491e2294a)">
+        <rect x="0" y="0" width="375" height="375" fill="#4A90E2"/>
+        <g mask="url(#819b467e07)">
+          <rect x="0" y="0" width="375" height="375" fill="currentColor"/>
         </g>
-        
-        {/* Checkmarks and lines */}
-        <path d="M185 220 L190 225 L200 215" stroke="white" strokeWidth="2" fill="none"/>
-        <line x1="210" y1="220" x2="260" y2="220" stroke="white" strokeWidth="2"/>
-        
-        <path d="M185 245 L190 250 L200 240" stroke="white" strokeWidth="2" fill="none"/>
-        <line x1="210" y1="245" x2="260" y2="245" stroke="white" strokeWidth="2"/>
-        
-        <path d="M185 270 L190 275 L200 265" stroke="white" strokeWidth="2" fill="none"/>
-        <line x1="210" y1="270" x2="260" y2="270" stroke="white" strokeWidth="2"/>
-        
-        <line x1="210" y1="295" x2="240" y2="295" stroke="white" strokeWidth="2"/>
+      </g>
+      <g clipPath="url(#1039618a36)">
+        <rect x="41.8125" y="41.542969" width="285" height="291.75" fill="white" fillOpacity="0.9"/>
+        <g mask="url(#e5749fb917)">
+          <rect x="41.8125" y="41.542969" width="285" height="291.75" fill="currentColor"/>
+        </g>
       </g>
     </svg>
   )

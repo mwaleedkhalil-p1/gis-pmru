@@ -1,0 +1,47 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="250" cy="250" r="250" fill="#1E88E5"/>
+<g fill="white">
+<!-- Building structure -->
+<path d="M75 150 L250 75 L425 150 L425 175 L375 175 L375 350 L425 350 L425 375 L425 400 L75 400 L75 375 L75 350 L125 350 L125 175 L75 175 Z"/>
+
+<!-- Columns -->
+<rect x="100" y="175" width="25" height="175"/>
+<rect x="375" y="175" width="25" height="175"/>
+
+<!-- Column bases -->
+<rect x="95" y="350" width="35" height="25"/>
+<rect x="370" y="350" width="35" height="25"/>
+
+<!-- Column tops -->
+<rect x="95" y="150" width="35" height="25"/>
+<rect x="370" y="150" width="35" height="25"/>
+
+<!-- Star -->
+<path d="M250 90 L255 105 L270 105 L258 115 L263 130 L250 120 L237 130 L242 115 L230 105 L245 105 Z"/>
+
+<!-- Text -->
+<text x="250" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">PATWAR KHANA</text>
+
+<!-- Document -->
+<rect x="170" y="180" width="115" height="155" fill="white" stroke="none"/>
+<path d="M270 180 L285 195 L270 195 Z" fill="#E3F2FD"/>
+
+<!-- Pen -->
+<g transform="translate(300, 200) rotate(45)">
+<rect x="0" y="0" width="8" height="30" fill="white"/>
+<rect x="2" y="25" width="4" height="8" fill="#FFC107"/>
+</g>
+
+<!-- Checkmarks and lines -->
+<path d="M185 220 L190 225 L200 215" stroke="white" stroke-width="2" fill="none"/>
+<line x1="210" y1="220" x2="260" y2="220" stroke="white" stroke-width="2"/>
+
+<path d="M185 245 L190 250 L200 240" stroke="white" stroke-width="2" fill="none"/>
+<line x1="210" y1="245" x2="260" y2="245" stroke="white" stroke-width="2"/>
+
+<path d="M185 270 L190 275 L200 265" stroke="white" stroke-width="2" fill="none"/>
+<line x1="210" y1="270" x2="260" y2="270" stroke="white" stroke-width="2"/>
+
+<line x1="210" y1="295" x2="240" y2="295" stroke="white" stroke-width="2"/>
+</g>
+</svg>
